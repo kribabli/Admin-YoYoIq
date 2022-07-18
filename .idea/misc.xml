@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/BabliOffice/AdminApp/app/src/main/res/drawable/border1_green.xml" value="0.101" />
         <entry key="..\:/BabliOffice/AdminApp/app/src/main/res/layout/activity_banner.xml" value="0.21302083333333333" />
         <entry key="..\:/BabliOffice/AdminApp/app/src/main/res/layout/activity_change_password.xml" value="0.21302083333333333" />
         <entry key="..\:/BabliOffice/AdminApp/app/src/main/res/layout/activity_default_contest.xml" value="0.22708333333333333" />
