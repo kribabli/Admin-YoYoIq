@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/defaultContest"
+        android:title="Default Contest" />
+
+    <item
+        android:id="@+id/fixtureContest"
+        android:title="Fixture Contest" />
+
+    <item
+        android:id="@+id/leaderBoard"
+        android:title="LeaderBoard" />
+
+    <item
+        android:id="@+id/kyc"
+        android:title="KYC" />
+
+    <item
+        android:id="@+id/banner"
+        android:title="Banner" />
+
+    <item
+        android:id="@+id/notification"
+        android:title="Notification" />
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/changePass"
+        android:title="Change Password" />
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/version"
+        android:title="App Version" />
+
+</menu>
