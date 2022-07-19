@@ -18,10 +18,10 @@ import com.google.mlkit.common.sdkinternal.SharedPrefManager;
 
 public class VersionActivity extends AppCompatActivity {
     TextView backPress;
-    DatabaseConnectivity databaseConnectivity = new DatabaseConnectivity();
     SharedPreferences sharedPreferences;
     SharedPrefManager sharedPrefManager;
     FirebaseDatabase firebaseDatabase;
+    DatabaseConnectivity databaseConnectivity = new DatabaseConnectivity();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +38,11 @@ public class VersionActivity extends AppCompatActivity {
             }
         });
 
+        changeVersion();
+    }
+
+    private void changeVersion() {
+        firebaseDatabase = FirebaseDatabase.getInstance();
 
         PackageManager manager = this.getPackageManager();
         PackageInfo info = null;
@@ -52,18 +57,16 @@ public class VersionActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        databaseConnectivity.getDatabasePath(this).child("VersionNameYoYoIq").addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot snapshot) {
-                Log.d("TAG", "onDataChange: " + snapshot);
-            }
-
-            @Override
-            public void onCancelled(DatabaseError error) {
-
-            }
-        });
-
-
+//        databaseConnectivity.getDatabasePath(this).child("VersionNameYoYoIq").addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(DataSnapshot snapshot) {
+//                Log.d("TAG", "onDataChange: " + snapshot);
+//            }
+//
+//            @Override
+//            public void onCancelled(DatabaseError error) {
+//
+//            }
+//        });
     }
 }
