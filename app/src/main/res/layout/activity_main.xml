@@ -36,7 +36,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
                     android:gravity="center"
-                    android:text="Admin AppYoYoIq"
+                    android:text="Admin YoYoiQ"
                     android:textColor="#ffff"
                     android:textSize="18sp" />
 
