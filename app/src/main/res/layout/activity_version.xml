@@ -60,11 +60,10 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/changeVersion"
+            android:id="@+id/appVersion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:hint="Enter App Version" />
+            android:layout_weight="4" />
 
         <View
             android:layout_width="0dp"
@@ -84,7 +83,7 @@
         android:weightSum="10">
 
         <TextView
-            android:id="@+id/appVersion"
+            android:id="@+id/changeVersionBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
